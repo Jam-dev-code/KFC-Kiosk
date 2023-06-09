@@ -52,7 +52,7 @@
                     <select>
                 </div>
                 <div class="form-group">
-                    <b><label for="CVC">CVC:</label></b>
+                    <b><label for="CVC">Card Verification Code:</label></b>
                     <input class="form-control" id="CVC" placeholder="CVC" name="address" type="text" pattern="[0-9]+" required minlength="3" maxlength="3" width="10%">
                 </div>
 

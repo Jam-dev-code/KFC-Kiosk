@@ -1,9 +1,3 @@
-/**
-* Template Name: Shuffle - v2.3.1
-* Template URL: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
@@ -13,7 +7,7 @@
     zIndex: '50'
   });
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
+  // Smooth scroll for the navigation menu and links with .scroll to classes
   var scrolltoOffset = $('#header').outerHeight() - 1;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -164,28 +158,6 @@
     delay: 10,
     time: 1000
   });
-
-  // Porfolio isotope and filter
-  // $(window).on('load', function() {
-  //   var portfolioIsotope = $('.portfolio-container').isotope({
-  //     itemSelector: '.portfolio-item',
-  //     layoutMode: 'fitRows'
-  //   });
-
-  //   $('#portfolio-flters li').on('click', function() {
-  //     $("#portfolio-flters li").removeClass('filter-active');
-  //     $(this).addClass('filter-active');
-
-  //     portfolioIsotope.isotope({
-  //       filter: $(this).data('filter')
-  //     });
-  //   });
-
-  //   // Initiate venobox (lightbox feature used in portofilo)
-  //   $(document).ready(function() {
-  //     $('.venobox').venobox();
-  //   });
-  // });
 
   
 
