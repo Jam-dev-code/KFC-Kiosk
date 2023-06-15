@@ -3,7 +3,7 @@ session_start();
 
 
 
-$systemName = "KFC SRILANKA";
+$systemName = "KFC PHILIPPINES";
 
 echo '<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:relative;">
       

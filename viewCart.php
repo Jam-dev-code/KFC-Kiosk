@@ -112,7 +112,7 @@
                         <h5 class="mb-3 text-uppercase font-weight-bold text-center">Order summary</h5>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0 bg-light">Total Price<span>PHP. <?php echo $totalPrice . '.00'?></span></li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center px-0 bg-light">Tax (3%)<span>PHP.<?php echo ($totalPrice * 0.03) ?></span></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0 bg-light">Tax (3%)<span>PHP. <?php echo ($totalPrice * 0.03) ?></span></li>
                             <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3 bg-light">
                                 <div>
                                     <strong>The total amount of</strong>
