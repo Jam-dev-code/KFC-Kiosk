@@ -44,7 +44,7 @@ include "./partials/_dbconnect.php";
             </div>
             <div class="col-md-8 my-4">
                 <h2 style="color:#a41e1d;font-weight:bold;">' . $foodName . '</h2>
-                <h4 style="color: #a41e1d;font-weight:bold">Rs. '.$foodPrice. '/-</h4>
+                <h4 style="color: #a41e1d;font-weight:bold"PHP. '.$foodPrice. '/-</h4>
                 <h5 class="mb-0">' .$foodDesc .'</h5>';
 
                 
